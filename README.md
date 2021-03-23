@@ -1,9 +1,13 @@
 # Film-hot-review-analysis
 This is a film review analysis system
-Python数据分析与挖掘
+
+
 Python数据分析技术：numpy、pandas、matploylib、nltk、jieba、gensim等；
+
 数据来源：可在网上阿里天池、kaggle自行收集或者自行通过爬虫或取；
+
 运行环境：win7，win8，win10、linux等；
+
 编译环境：Pycharm、Anaconda等
 
 数据集的来源
@@ -18,3 +22,4 @@ https://movie.douban.com/subject/30166972/comments?start=0 &limit=20&sort=new_sc
 
 实验的详细过程介绍-结合主要代码以及可视化结果进行说明
 由于爬取到数据有部分没有意义和部分评论存在有回车，导致爬取出来形成多行，对此我们进行了数据的清理、数据的拼接、停用词的去除，再进行（0~1）情感分析，最后生产可视化最重要20个进行分析生成条形图，再绘制正向和负向词云。
+
